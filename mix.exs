@@ -71,7 +71,9 @@ defmodule Ashify.MixProject do
       {:gettext, "~> 0.26"},
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.2.0"},
-      {:bandit, "~> 1.5"}
+      {:bandit, "~> 1.5"},
+      {:phoenix_test, "~> 0.8.1", only: :test, runtime: false},
+      {:error_tracker, "~> 0.6"}
     ]
   end
 

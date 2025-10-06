@@ -3,8 +3,8 @@ config :ash, policies: [show_policy_breakdowns?: true]
 
 # Configure your database
 config :ashify, Ashify.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "backend_elixir",
+  password: "postgres_p0p",
   hostname: "localhost",
   database: "ashify_dev",
   stacktrace: true,

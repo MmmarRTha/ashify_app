@@ -7,8 +7,8 @@ config :ash, policies: [show_policy_breakdowns?: true], disable_async?: true
 # to provide built-in test partitioning in CI environment.
 # Run `mix help test` for more information.
 config :ashify, Ashify.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "backend_elixir",
+  password: "postgres_p0p",
   hostname: "localhost",
   database: "ashify_test#{System.get_env("MIX_TEST_PARTITION")}",
   pool: Ecto.Adapters.SQL.Sandbox,
@@ -36,3 +36,5 @@ config :phoenix, :plug_init_mode, :runtime
 # Enable helpful, but potentially expensive runtime checks
 config :phoenix_live_view,
   enable_expensive_runtime_checks: true
+
+config :phoenix_test, :endpoint, AshifyWeb.Endpoint
