@@ -1,5 +1,7 @@
 # 🎵 Ashify
 
+This project is being built by the chapters of the "Ash Framework Create Declarative Elixir Web Apps" book written by Rebecca Le & Zach Daniel. 
+
 A music database application built with the Ash Framework and Phoenix LiveView. Think of it as a lightweight Spotify without the music playback, where users can browse catalogs of artists and albums, follow their favorites, and receive real-time notifications.
 
 ## ✨ Features
@@ -20,8 +22,6 @@ A music database application built with the Ash Framework and Phoenix LiveView. 
 - 🎨 **Tailwind CSS**: Styling and responsive design
 
 ## 📚 Development Journey
-
-This project is being built by following the chapters of the "Real-Time Web Applications with the Ash Framework" book.
 
 Checklist of the progress based on the book's chapters:
 
