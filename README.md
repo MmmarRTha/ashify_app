@@ -26,7 +26,7 @@ A music database application built with the Ash Framework and Phoenix LiveView. 
 Checklist of the progress based on the book's chapters:
 
 - [ ] **✅ Chapter 1: Building Our First Resource**
-  - Set up the Tunez starter app.
+  - Set up the Ashify starter app.
   - Install and configure Ash.
   - Get familiar with CRUD actions.
   - Build a full resource with attributes, actions, and a database table.
